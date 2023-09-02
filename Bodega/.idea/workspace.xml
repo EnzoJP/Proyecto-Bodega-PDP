@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c28d510-c48b-4b64-b635-4ffacd61815e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../TP3/src/Ahorcado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3/src/Ahorcado.java" afterDir="false" />
+    <list default="true" id="9e2bad07-b261-4796-8109-8b5e53ec363a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +17,9 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2UqrpLj9H3Yttvk0sPbyVgOsLXo" />
+  <component name="ProjectId" id="2Uqubl4c9wuxlukCtnB9wBTmi6h" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,22 +29,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4c28d510-c48b-4b64-b635-4ffacd61815e" name="Changes" comment="" />
-      <created>1693678135254</created>
+      <changelist id="9e2bad07-b261-4796-8109-8b5e53ec363a" name="Changes" comment="" />
+      <created>1693679506454</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1693678135254</updated>
-      <workItem from="1693678136768" duration="565000" />
+      <updated>1693679506454</updated>
+      <workItem from="1693679507643" duration="378000" />
     </task>
     <servers />
   </component>
