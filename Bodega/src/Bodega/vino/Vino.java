@@ -5,7 +5,7 @@ public abstract class Vino {
     protected String nombreDeVino; //Nombre de vino se refiere a la "categoría", es decir Malbec, Sauvignon, etc
     protected String tipoDeVino; // Referida al tipo (tinto, blanco, cava o rosa)
     protected int lote;
-    protected int añoElaboracion; //Año en el que es insertado en el sistema
+    protected int anoElaboracion; //Año en el que es insertado en el sistema
     protected String etapaActual; //Etapa en la que se encuentra
 
     protected float temperaturaFermentacion;
@@ -15,10 +15,15 @@ public abstract class Vino {
     protected int tiempoMaceracion;
 
     //Constructor
-    public void Vino(int lote, int añoElaboracion, String etapaActual) {
+    public Vino(String nombreDeVino, String tipoDeVino, int lote, int anoElaboracion, String etapaActual, float temperaturaFermentacion, int tiempoCrianza, int tiempoMaceracion) {
+        this.nombreDeVino = nombreDeVino;
+        this.tipoDeVino = tipoDeVino;
         this.lote = lote;
-        this.añoElaboracion = añoElaboracion;
+        this.anoElaboracion = anoElaboracion;
         this.etapaActual = etapaActual;
+        this.temperaturaFermentacion = temperaturaFermentacion;
+        this.tiempoCrianza = tiempoCrianza;
+        this.tiempoMaceracion = tiempoMaceracion;
     }
 
     //Getters
@@ -31,7 +36,7 @@ public abstract class Vino {
     //Retorna el lote
     public int getLote() {return lote;}
     //Retorna el año de elaboración
-    public int getAñoElaboracion() {return añoElaboracion;}
+    public int getAnoElaboracion() {return anoElaboracion;}
     //Retorna el tiempo de maceración
     public int getTiempoMaceracion() {return tiempoMaceracion;}
     //Retorna el tiempo de crianza necesario
