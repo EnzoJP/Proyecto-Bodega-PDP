@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class Control {
     private ArrayList<Vino> inventarioVinos;
     private int cantVinosContador;
-    private int añoActual;
+    private int anoActual;
 
-    public Control(ArrayList<Vino> inventarioVinos, int cantVinosContador, int añoActual) {
-        this.inventarioVinos = inventarioVinos;
-        this.cantVinosContador = cantVinosContador;
-        this.añoActual = añoActual;
+    public Control(int anoActual) {
+        inventarioVinos = new ArrayList<>();
+        this.cantVinosContador = 0;
+        this.anoActual = anoActual;
     }
 
     public ArrayList<Vino> getInventarioVinos() {
@@ -29,14 +29,17 @@ public class Control {
         this.cantVinosContador = cantVinosContador;
     }
 
-    public int getAñoActual() {
-        return añoActual;
+    public int getAnoActual() {
+        return anoActual;
     }
 
-    public void setAñoActual(int añoActual) {
-        this.añoActual = añoActual;
+    public void setAnoActual(int anoActual) {
+        this.anoActual = anoActual;
     }
 
     public void imprimirVinos(){
     }
+
+
+
 }
