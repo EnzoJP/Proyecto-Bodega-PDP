@@ -102,12 +102,12 @@ public class Bodega {
     public void imprimirVinos(){
         controlDeBodega.imprimirVinos();
     }
-    /*
+    
     public void avanzarAno(){
-        controlDeBodega.avanzarAno()
+        controlDeBodega.avanzarAno();
     }
 
-
+    /* 
     public void consultarEtapa(){
         controlDeBodega.consultarEtapa;
     }
