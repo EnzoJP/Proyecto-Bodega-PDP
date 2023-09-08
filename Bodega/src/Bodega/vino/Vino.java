@@ -1,21 +1,63 @@
 package Bodega.vino;
 
+/**
+ * La clase vino es la clase abstracta usada para modelar los vinos en general. Es un contenedor de los atributos que se usaran en las clases que
+ * la hereden.
+ * @version 1.0.0
+ * @author Tomas Rando, Enzo Palau y Julian Montano
+ */
+
 public abstract class Vino {
     //Declaración de variables
-    protected String nombreDeVino; //Nombre de vino se refiere a la "categoría", es decir Malbec, Sauvignon, etc
-    protected String tipoDeVino; // Referida al tipo (tinto, blanco, cava o rosa)
+    /**
+     * El nombre del vino, es decir, Malbec, Sauvignon, etc
+     */
+    protected String nombreDeVino; //Nombre de vino se refiere a la "categoria", es decir Malbec, Sauvignon, etc
+    /**
+     * El tipo de vino, es decir, tinto, blanco, cava o rosado
+     */
+    protected String tipoDeVino; // Referida al tipo (tinto, blanco, cava o rosado)
+    /**
+     * El lote es el numero identificador del vino en cuestion. Sera un entero
+     */
     protected int lote;
-    protected int anoElaboracion; //Año en el que es insertado en el sistema
+    /**
+     * El anio en el que se inserta en el sistema el vino. Sera un entero
+     */
+    protected int anoElaboracion; //Anio en el que es insertado en el sistema
+    /**
+     * Etapa en la que se encuentra el vino actualmente. Sera un string
+     */
     protected String etapaActual; //Etapa en la que se encuentra
 
+    /**
+     * Es la temperatura a la que se fermenta el vino. Medida en C y es un float.
+     */
     protected float temperaturaFermentacion;
 
-    protected int tiempoCrianza;
+    /**
+     * El tiempo en meses que demora la crianza del vino. Se toma como float
+     */
+    protected float tiempoCrianza;
 
-    protected int tiempoMaceracion;
+    /**
+     * El tiempo que demora la maceracion del vino en meses. Se toma como float
+     */
+    protected float tiempoMaceracion;
 
     //Constructor
-    public Vino(String nombreDeVino, String tipoDeVino, int lote, int anoElaboracion, String etapaActual, float temperaturaFermentacion, int tiempoCrianza, int tiempoMaceracion) {
+    /**
+     * Este metodo es el constructor de la clase Vino.
+     * @param nombreDeVino Es el nombre del vino como String, es decir, Malbec, Merlot, entre otros.
+     * @param tipoDeVino Es el tipo de vino (Tinto, Blanco, Rosado o Cava) como String.
+     * @param lote Es el numero identificador del vino. Es entero
+     * @param anoElaboracion Es el anio en el que es ingresado al sistema. Es entero
+     * @param etapaActual Es la etapa en la que se encuentra al momento de ser ingresado. Es String
+     * @param temperaturaFermentacion Es la temperatura a la que se fermenta el vino. Medido en C. Es float
+     * @param tiempoCrianza Es el tiempo de crianza que tendra el vino. Medido en meses. Es float
+     * @param tiempoMaceracion Es el tiempo de maceracion que tendra el vino. Medido en meses. Es float
+     */
+    public Vino(String nombreDeVino, String tipoDeVino, int lote, int anoElaboracion, String etapaActual, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
         this.nombreDeVino = nombreDeVino;
         this.tipoDeVino = tipoDeVino;
         this.lote = lote;
@@ -28,26 +70,67 @@ public abstract class Vino {
 
     //Getters
     //Retorna el nombre del vino
+
+    /**
+     * Devuelve el nombre del vino
+     * @return Nombre del vino como String
+     */
     public String getNombreDeVino() {return nombreDeVino;}
     //Retorna el tipo de vino
+    /**
+     * Devuelve el tipo del vino
+     * @return Tipo del vino como String
+     */
     public String getTipoDeVino() {return tipoDeVino;}
     //Retorna la etapa actual
+    /**
+     * Devuelve la etapa actual del vino
+     * @return Etapa actual del vino como String
+     */
     public String getEtapaActual() {return etapaActual;}
     //Retorna el lote
+    /**
+     * Devuelve el numero del lote del vino
+     * @return Numero de lote del vino como entero
+     */
     public int getLote() {return lote;}
-    //Retorna el año de elaboración
+    //Retorna el anio de elaboración
+    /**
+     * Retorna el anio de insercion del vino en el sistema
+     * @return Anio de inserción del vino al sistema como entero
+     */
     public int getAnoElaboracion() {return anoElaboracion;}
     //Retorna el tiempo de maceración
-    public int getTiempoMaceracion() {return tiempoMaceracion;}
+    /**
+     * Devuelve el tiempo de maceracion del vino
+     * @return Tiempo de maceracion del vino en meses
+     */
+    public float getTiempoMaceracion() {return tiempoMaceracion;}
     //Retorna el tiempo de crianza necesario
-    public int getTiempoCrianza() {return tiempoCrianza;}
-    //Retorna la temperatura de la fermentación
+    /**
+     * Devuelve el tiempo de crianza del vino
+     * @return Tiempo de crianza del vino en meses
+     */
+    public float getTiempoCrianza() {return tiempoCrianza;}
+    //Retorna la temperatura de la fermentacion
+    /**
+     * Devuelve la temperatura de fermentacion del vino
+     * @return Temperatura de fermentacion del vino en C
+     */
     public float getTemperaturaFermentacion() {return temperaturaFermentacion;}
 
     //Setters
+    /**
+     * Cambia la etapa actual del vino por la del parametro
+     * @param newEtapa Nueva etapa del vino como String
+     */
     public void setEtapa(String newEtapa) {etapaActual = newEtapa;}
 
     //Servicios
-    public abstract void mostrarEtapas(); //Muestra todas las etapas por las que tiene que pasar el vino. Varía entre todos.
+
+    /**
+     * Muestra las etapas de los vinos
+     */
+    public abstract void mostrarEtapas(); //Muestra todas las etapas por las que tiene que pasar el vino. Varia entre todos.
 
 }

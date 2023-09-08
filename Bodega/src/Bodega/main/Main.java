@@ -1,7 +1,5 @@
 package Bodega.main;
-
 import Bodega.bodega.Bodega;
-import Bodega.*;
 import java.util.Scanner;
 
 public class Main {
