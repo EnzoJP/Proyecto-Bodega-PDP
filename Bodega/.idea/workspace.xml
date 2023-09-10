@@ -5,32 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e2bad07-b261-4796-8109-8b5e53ec363a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bodega/vino/Blanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bodega/vino/Blend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bodega/vino/Cava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bodega/vino/Prints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bodega/vino/Rosado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bodega/vino/Tinto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/CabernetSauvignon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/CabernetSauvignon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/CabernetSauvignonRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/CabernetSauvignonRose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/CavaGranReserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/CavaGranReserva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/CavaJoven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/CavaJoven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/CavaReserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/CavaReserva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Chardonnay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Chardonnay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Malbec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Malbec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/MalbecRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/MalbecRose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Merlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Merlot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/MerlotRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/MerlotRose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/SauvignonBlanc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/SauvignonBlanc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Semillon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Semillon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Syrah.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Syrah.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/SyrahRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/SyrahRose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Vino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Vino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Viognier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Viognier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Blend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Blend.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,20 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Runtime.Targets.Configurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,7 +62,11 @@
       <workItem from="1693681114130" duration="1503000" />
       <workItem from="1693754658458" duration="2294000" />
       <workItem from="1694134357683" duration="135000" />
-      <workItem from="1694134505574" duration="8837000" />
+      <workItem from="1694134505574" duration="9458000" />
+      <workItem from="1694144461956" duration="6000" />
+      <workItem from="1694145805597" duration="11000" />
+      <workItem from="1694351884880" duration="4346000" />
+      <workItem from="1694356324669" duration="149000" />
     </task>
     <servers />
   </component>

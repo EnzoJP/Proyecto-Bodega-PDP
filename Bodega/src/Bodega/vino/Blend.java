@@ -13,8 +13,8 @@ public abstract class Blend extends Vino{
 
     /**
      * Es el constructor de la clase
-     * @param tipoVino Es el primer tipo de vino de la mezcla (Tinto, Blanco, Rosado o Cava) como String
-     * @param tipoVino2 Es el segundo tipo de vino de la mezcla (Tinto, Blanco, Rosado o Cava) como String.
+     * @param nombreVino Es el nombre del vino instanciado, por ejemplo Blend VinoSabroso, Merlot, etc
+     * @param tipoDeVino Es el tipo de vino que se instancia (Tinto, Blanco, Rosado, Cava o Blend)
      * @param lote Es el numero identificador del vino. Es entero
      * @param anoElaboracion Es el anio en el que es ingresado al sistema. Es entero
      * @param etapaActual Es la etapa en la que se encuentra al momento de ser ingresado. Es String
@@ -23,11 +23,10 @@ public abstract class Blend extends Vino{
      * @param tiempoMaceracion Es el tiempo de maceracion que tendra el vino. Medido en meses. Es float
      */
     //Constructor
-    public Blend(String tipoVino, String tipoVino2, int lote, int anoElaboracion, String etapaActual, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
-        super(tipoVino + "+" + tipoVino2, "Blend", lote, anoElaboracion, etapaActual, temperaturaFermentacion, tiempoCrianza, tiempoMaceracion);
+    public Blend(String nombreVino, String tipoDeVino, int lote, int anoElaboracion, String etapaActual, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
+        super(nombreVino, tipoDeVino, lote, anoElaboracion, etapaActual, temperaturaFermentacion, tiempoCrianza, tiempoMaceracion);
 
         //Asignación de los valores por defecto - a modificar
         this.listadoEtapas = new String[20];
     }
-
 }
