@@ -6,12 +6,37 @@ import java.util.Scanner;
 
 import Bodega.maridaje.Maridaje;
 import Bodega.vino.*;
+/**
+ * Clase que forma el primer nivel de abstraccion
+ * @version 1.0.0
+ * @author Tomas Rando, Enzo Palau, Julian Montano
+ */
 
 public class Bodega {
+    //Atributos
+    /**
+     * El nombre de la Bodega en cuestion
+     */
     private  String nombreDeBodega;
+    /**
+     * La direccion de la Bodega (calle, provincia etc)
+     */
     private  String direccionDeBodega;
+    /**
+     * El nombre de el director/ceo de la bodega
+     */
     private  String directorDeBodega;
+    /**
+     * Una clase para control de el inventario de la bodega, (realiza funciones elementales)
+     */
     private Control controlDeBodega; //objeto
+    //Constructor
+    /**
+     * Este metodo es el constructor de la clase Vino.
+     * @param nombreDeBodega El nombre de la Bodega en cuestion
+     * @param direccionDeBodega La direccion de la Bodega (calle, provincia etc)
+     * @param directorDeBodega El nombre de el director/ceo de la bodega
+     */
 
     public Bodega(String nombreDeBodega, String direccionDeBodega, String directorDeBodega) {
         this.nombreDeBodega = nombreDeBodega;
@@ -20,31 +45,69 @@ public class Bodega {
         this.controlDeBodega  = new Control(2023);
 
     }
+    /**
+     * Devuelve el nombre de la bodega
+     * @return Nombre de la bodega
+     */
 
     public String getNombreDeBodega() {
         return nombreDeBodega;
     }
+    /**
+     * Cambia el nombre de la bodega
+     * @param nombreDeBodega  nombre de la bodega como string
+     */
 
     public void setNombreDeBodega(String nombreDeBodega) {
         this.nombreDeBodega = nombreDeBodega;
     }
+    /**
+     * Devuelve la direccion de la bodega
+     * @return direccion de la bodega
+     */
 
     public String getDireccionDeBodega() {
         return direccionDeBodega;
     }
+    /**
+     * Cambia  la direccion de la bodega
+     * @param direccionDeBodega  direccion de la bodega como string
+     */
 
     public void setDireccionDeBodega(String direccionDeBodega) {
         this.direccionDeBodega = direccionDeBodega;
     }
+    /**
+     * Devuelve el nombre de el director de la bodega
+     * @return Nombre de el director de la bodega
+     */
 
     public String getDirectorDeBodega() {
         return directorDeBodega;
     }
+    /**
+     * Cambia el director de la bodega
+     * @param directorDeBodega  nombre de el director como string
+     */
 
     public void setDirectorDeBodega(String directorDeBodega) {
         this.directorDeBodega = directorDeBodega;
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+    // Esto deberia ir en control
+    /*
     public void  instanciarVino(){
         Scanner scanner = new Scanner(System.in);
         Scanner scannerlote = new Scanner(System.in);
@@ -96,27 +159,8 @@ public class Bodega {
             }
             } while (option != 0 );
         scanner.close();
+*/
 
     }
 
-    public void imprimirVinos(){
-        controlDeBodega.imprimirVinos();
-    }
-    
-    public void avanzarAno(){
-        controlDeBodega.avanzarAno();
-    }
 
-    /* 
-    public void consultarEtapa(){
-        controlDeBodega.consultarEtapa;
-    }
-
-     */
-    public void obtenerMaridaje(){
-        Maridaje maridaje = new Maridaje();
-        maridaje=null; //Borrado de objeto
-    }
-
-
-}
