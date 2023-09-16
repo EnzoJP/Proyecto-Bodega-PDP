@@ -3,6 +3,7 @@ package Bodega.vino;
  * Clase que engloba a los vinos Cava. Es abstracta y tiene como atributo importante el array de String con las etapas
  * @version 1.0.0
  * @author Tomas Rando, Enzo Palau, Julian Montano
+ * @see Bodega.vino.Vino
  */
 public abstract class Cava extends Vino {
     //Array de string con el listado de etapas de los vinos Cava

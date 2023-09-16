@@ -4,7 +4,7 @@ package Bodega.vino;
  * @version 1.0.0
  * @author Tomas Rando, Enzo Palau y Julian Montano
  */
-public class CavaReserva extends Cava implements Prints {
+public class CavaReserva extends Cava  {
     //Atributos
 
     //Constructor

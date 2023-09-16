@@ -6,7 +6,7 @@ package Bodega.vino;
  * @version 1.0.0
  * @author Tomas Rando, Enzo Palau y Julian Montano
  */
-public class CabernetSauvignon extends Tinto implements Prints{
+public class CabernetSauvignon extends Tinto {
     //Atributos
 
     //Constructor

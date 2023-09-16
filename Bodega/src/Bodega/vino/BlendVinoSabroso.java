@@ -6,7 +6,7 @@ package Bodega.vino;
  *  @author Tomas Rando, Enzo Palau, Julian Montano
  *
  */
-public class BlendVinoSabroso extends Blend implements Prints{
+public class BlendVinoSabroso extends Blend {
     //Atributos
 
     //Constructor

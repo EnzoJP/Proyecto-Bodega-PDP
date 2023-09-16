@@ -9,14 +9,24 @@ import java.util.Scanner;
  * La clase que contendra la estructura basica del programa y unira ciertas partes mediante diferentes menus
  * @version 1.0.0
  * @author Enzo Palau, Tomas Rando, Julian Montano
+ * @since 11
  */
 public class Main {
+
+    /**
+     * Metodo main del programa
+     * @param args
+     */
     public static void main(String[] args) {
         Bodega bodega = new Bodega("Vino Sabroso", "Calle Manzana, Lujan de Cuyo","Pablo Vidal");
         menuPrincipal(bodega);
 
     }
 
+    /**
+     * Metodo donde se realizara toda la ejecucion del programa. Es un menu que llama a bodega dependiendo de la opcion elegida
+     * @param bodega Recibe el objeto bodega, se utilizara para llamar a los distintos metodos dependiendo de la opcion
+     */
     public static void menuPrincipal(Bodega bodega) {
         boolean stop = false;
         Scanner scanner = new Scanner(System.in);
@@ -34,7 +44,7 @@ public class Main {
             System.out.println("4. Consultar etapa");
             System.out.println("5. Consultar maridaje");
             System.out.println("6. Consultar información de vinos");
-            System.out.println("7. Cerrar");
+            System.out.println("7. Cerrar programa");
             System.out.println("===============================================");
             System.out.println(" ");
             do {
@@ -106,6 +116,11 @@ public class Main {
         }
 
     }
+
+    /**
+     * Metodo con el menu de los vinos de la bodega. Se encarga de mostrar los vinos y pedir la seleccion de un vino
+     * @return El String con el vino elegido
+     */
     public static String menuVinos() {
         int option, option2;
         System.out.println("=========== Ingrese el tipo de vino: ===========");
@@ -194,6 +209,12 @@ public class Main {
         }
     }
 
+    /**
+     * Metodo para pedir un entero por pantalla de un dato que tenga un minimo y un maximo
+     * @param min El valor minimo que puede tomar el dato solicitado
+     * @param max El valor maximo que puede tomar el dato solicitado
+     * @return El entero ingresado por pantalla
+     */
     public static int inputInt(int min, int max) {
         Scanner scanner = new Scanner(System.in);
         int option;
@@ -213,6 +234,11 @@ public class Main {
         scanner.nextLine();
         return option;
     }
+
+    /**
+     * Metodo para pedir el ingreso por pantalla del numero de lote
+     * @return El entero con el lote ingresado por pantalla
+     */
     public static int inputLote() {
         Scanner scanner = new Scanner(System.in);
         int lote;
@@ -234,6 +260,11 @@ public class Main {
         return lote;
     }
 
+    /**
+     * Metodo que se encarga de llamar al metodo de bodega encargado de imprimir los vinos y pedir el indice del vino por teclado
+     * @param bodega Objeto bodega, sera necesario para utilizarlo para llamar al metodo de imprimirVinos
+     * @return El entero con el indice del vino elegido
+     */
     public static int seleccionarVinoMenu(Bodega bodega) {
         int vinoOption;
         vinoOption = bodega.imprimirVinos();

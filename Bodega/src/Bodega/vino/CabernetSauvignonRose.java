@@ -4,7 +4,7 @@ package Bodega.vino;
  * @version 1.0.0
  * @author Tomas Rando, Enzo Palau y Julian Montano
  */
-public class CabernetSauvignonRose extends Rosado implements Prints {
+public class CabernetSauvignonRose extends Rosado {
     //Atributos
 
     //Constructor

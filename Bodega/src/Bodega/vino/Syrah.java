@@ -4,7 +4,7 @@ package Bodega.vino;
  * @version 1.0.0
  * @author Tomas Rando, Enzo Palau y Julian Montano
  */
-public class Syrah extends Tinto implements Prints{
+public class Syrah extends Tinto {
     //Atributos
 
     //Constructor
