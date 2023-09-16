@@ -4,7 +4,7 @@ package Bodega.vino;
  * @version 1.0.0
  * @author Tomas Rando, Enzo Palau y Julian Montano
  */
-public class SyrahRose extends Rosado implements Prints{
+public class SyrahRose extends Rosado{
     //Atributos
 
     //Constructor
@@ -12,10 +12,9 @@ public class SyrahRose extends Rosado implements Prints{
      * Constructor de la clase
      * @param lote Es el lote del vino. Es un int
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
-     * @param etapaActual Es la etapa en la que se encuentra el vino actualmente. Es una string
      */
-    public SyrahRose(int lote, int anoElaboracion, String etapaActual) {
-        super("Syrah Rose", "Rosa", lote, anoElaboracion, etapaActual, 0, 0, 0);
+    public SyrahRose(int lote, int anoElaboracion) {
+        super("Syrah Rose", "Rosa", lote, anoElaboracion, 0, 0, 0);
     }
 
     //Muestra el listado de etapas del presente vino
@@ -37,6 +36,7 @@ public class SyrahRose extends Rosado implements Prints{
      * @param i Es la posicion de la etapa en el array de etapas. Sera seleccionada por el usuario mediante un menu
      * @return String con la etapa de la posicion pasada como parametro
      */
+    @Override
     public String getEtapa(int i) {
         return listadoEtapas[i];
     }

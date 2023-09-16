@@ -17,16 +17,16 @@ public abstract class Blend extends Vino{
      * @param tipoDeVino Es el tipo de vino que se instancia (Tinto, Blanco, Rosado, Cava o Blend)
      * @param lote Es el numero identificador del vino. Es entero
      * @param anoElaboracion Es el anio en el que es ingresado al sistema. Es entero
-     * @param etapaActual Es la etapa en la que se encuentra al momento de ser ingresado. Es String
      * @param temperaturaFermentacion Es la temperatura a la que se fermenta el vino. Medido en C. Es float
      * @param tiempoCrianza Es el tiempo de crianza que tendra el vino. Medido en meses. Es float
      * @param tiempoMaceracion Es el tiempo de maceracion que tendra el vino. Medido en meses. Es float
      */
     //Constructor
-    public Blend(String nombreVino, String tipoDeVino, int lote, int anoElaboracion, String etapaActual, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
-        super(nombreVino, tipoDeVino, lote, anoElaboracion, etapaActual, temperaturaFermentacion, tiempoCrianza, tiempoMaceracion);
+    public Blend(String nombreVino, String tipoDeVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
+        super(nombreVino, tipoDeVino, lote, anoElaboracion, temperaturaFermentacion, tiempoCrianza, tiempoMaceracion);
 
         //Asignación de los valores por defecto - a modificar
-        this.listadoEtapas = new String[20];
+        //17
+        this.listadoEtapas = new String[]{"Recoleccion", "Transporte", "Reparticion", "Despalillado", "Estrujado", "Desfangado", "TrasladoSolidos", "Maceracion", "FermentacionAlcoholica", "FermentacionVirgen", "Trasiego", "Clarificacion", "Filtracion", "Estabilizacion", "Crianza", "Embotellado", "Venta"};
     }
 }

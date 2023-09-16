@@ -1,5 +1,5 @@
 package Bodega.vino;
-
+import Bodega.maridaje.Maridaje;
 /**
  * La clase vino es la clase abstracta usada para modelar los vinos en general. Es un contenedor de los atributos que se usaran en las clases que
  * la hereden.
@@ -7,7 +7,7 @@ package Bodega.vino;
  * @author Tomas Rando, Enzo Palau y Julian Montano
  */
 
-public abstract class Vino {
+public abstract class Vino implements Prints{
     //Declaración de variables
     /**
      * El nombre del vino, es decir, Malbec, Sauvignon, etc
@@ -28,7 +28,7 @@ public abstract class Vino {
     /**
      * Etapa en la que se encuentra el vino actualmente. Sera un string
      */
-    protected String etapaActual; //Etapa en la que se encuentra
+    protected Etapas etapaActual; //Etapa en la que se encuentra
 
     /**
      * Es la temperatura a la que se fermenta el vino. Medida en C y es un float.
@@ -44,7 +44,7 @@ public abstract class Vino {
      * El tiempo que demora la maceracion del vino en meses. Se toma como float
      */
     protected float tiempoMaceracion;
-
+    protected Maridaje maridaje;
     //Constructor
     /**
      * Este metodo es el constructor de la clase Vino.
@@ -52,17 +52,16 @@ public abstract class Vino {
      * @param tipoDeVino Es el tipo de vino (Tinto, Blanco, Rosado o Cava) como String.
      * @param lote Es el numero identificador del vino. Es entero
      * @param anoElaboracion Es el anio en el que es ingresado al sistema. Es entero
-     * @param etapaActual Es la etapa en la que se encuentra al momento de ser ingresado. Es String
      * @param temperaturaFermentacion Es la temperatura a la que se fermenta el vino. Medido en C. Es float
      * @param tiempoCrianza Es el tiempo de crianza que tendra el vino. Medido en meses. Es float
      * @param tiempoMaceracion Es el tiempo de maceracion que tendra el vino. Medido en meses. Es float
      */
-    public Vino(String nombreDeVino, String tipoDeVino, int lote, int anoElaboracion, String etapaActual, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
+    public Vino(String nombreDeVino, String tipoDeVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
         this.nombreDeVino = nombreDeVino;
         this.tipoDeVino = tipoDeVino;
         this.lote = lote;
         this.anoElaboracion = anoElaboracion;
-        this.etapaActual = etapaActual;
+        this.etapaActual = Etapas.Recoleccion ;
         this.temperaturaFermentacion = temperaturaFermentacion;
         this.tiempoCrianza = tiempoCrianza;
         this.tiempoMaceracion = tiempoMaceracion;
@@ -87,7 +86,7 @@ public abstract class Vino {
      * Devuelve la etapa actual del vino
      * @return Etapa actual del vino como String
      */
-    public String getEtapaActual() {return etapaActual;}
+    public String getEtapaActual() {return etapaActual.toString();}
     //Retorna el lote
     /**
      * Devuelve el numero del lote del vino
@@ -121,10 +120,86 @@ public abstract class Vino {
 
     //Setters
     /**
-     * Cambia la etapa actual del vino por la del parametro
+     * Cambia la etapa actual del vino por la del parametro usando el enumerator Etapas
      * @param newEtapa Nueva etapa del vino como String
      */
-    public void setEtapa(String newEtapa) {etapaActual = newEtapa;}
+    public void setEtapa(String newEtapa) {
+        Etapas s = Etapas.Recoleccion;
+
+        if (newEtapa.equals("Transporte")) {
+            s = Etapas.Transporte;
+        }
+        if (newEtapa.equals("Reparticion")) {
+            s = Etapas.Reparticion;
+        }
+        if (newEtapa.equals("Despalillado")) {
+            s = Etapas.Despalillado;
+        }
+        if (newEtapa.equals("Estrujado")) {
+            s = Etapas.Estrujado;
+        }
+        if (newEtapa.equals("Remontado")) {
+            s = Etapas.Remontado;
+        }
+        if (newEtapa.equals("TrasladoSolidos")) {
+            s = Etapas.TrasladoSolidos;
+        }
+        if (newEtapa.equals("Maceracion")) {
+            s = Etapas.Maceracion;
+        }
+        if (newEtapa.equals("FermentacionAlcoholica")) {
+            s = Etapas.FermentacionAlcoholica;
+        }
+        if (newEtapa.equals("Prensado")) {
+            s = Etapas.Prensado;
+        }
+        if (newEtapa.equals("FermentacionMalolactica")) {
+            s = Etapas.FermentacionMalolactica;
+        }
+        if (newEtapa.equals("FermentacionVirgen")) {
+            s = Etapas.FermentacionVirgen;
+        }
+        if (newEtapa.equals("Trasiego")) {
+            s = Etapas.Trasiego;
+        }
+        if (newEtapa.equals("Clarificacion")) {
+            s = Etapas.Clarificacion;
+        }
+        if (newEtapa.equals("Filtracion")) {
+            s = Etapas.Filtracion;
+        }
+        if (newEtapa.equals("Crianza")) {
+            s = Etapas.Crianza;
+        }
+        if (newEtapa.equals("Embotellado")) {
+            s = Etapas.Embotellado;
+        }
+        if (newEtapa.equals("Venta")) {
+            s = Etapas.Venta;
+        }
+        if (newEtapa.equals("LicorDeTiraje")) {
+            s = Etapas.LicorDeTiraje;
+        }
+        if (newEtapa.equals("Removido")) {
+            s = Etapas.Removido;
+        }
+        if (newEtapa.equals("Deguelle")) {
+            s = Etapas.Deguelle;
+        }
+        if (newEtapa.equals("LicorDeExpedicion")) {
+            s = Etapas.LicorDeExpedicion;
+        }
+        if (newEtapa.equals("Desfangado")) {
+            s = Etapas.Desfangado;
+        }
+        if (newEtapa.equals("Estabilizacion")) {
+            s = Etapas.Estabilizacion;
+        }
+        if (newEtapa.equals("Mezcla")) {
+            s = Etapas.Mezcla;
+        }
+        etapaActual = s;
+        }
 
     //Servicios
 
@@ -133,4 +208,10 @@ public abstract class Vino {
      */
     public abstract void mostrarEtapas(); //Muestra todas las etapas por las que tiene que pasar el vino. Varia entre todos.
 
+    /**
+     * Se le pasa un indice como parametro y devuelve la etapa correspondiente al indice
+     */
+    public abstract String getEtapa(int i);
+
+    public String getMaridaje() {return maridaje.getMaridaje();};
 }

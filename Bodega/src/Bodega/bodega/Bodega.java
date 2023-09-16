@@ -9,7 +9,7 @@ import Bodega.vino.*;
 /**
  * Clase que forma el primer nivel de abstraccion
  * @version 1.0.0
- * @author Tomas Rando, Enzo Palau, Julian Montano
+ * @author Enzo Palau, Tomas Rando, Julian Montano
  */
 
 public class Bodega {
@@ -43,7 +43,6 @@ public class Bodega {
         this.direccionDeBodega = direccionDeBodega;
         this.directorDeBodega = directorDeBodega;
         this.controlDeBodega  = new Control(2023);
-
     }
     /**
      * Devuelve el nombre de la bodega
@@ -94,73 +93,29 @@ public class Bodega {
         this.directorDeBodega = directorDeBodega;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-    // Esto deberia ir en control
-    /*
-    public void  instanciarVino(){
-        Scanner scanner = new Scanner(System.in);
-        Scanner scannerlote = new Scanner(System.in);
-        int option;
-        int lote;
-        System.out.println("GENERAR VINOS :)");
-        System.out.println("Ingrese número de lote: ");
-        boolean parada = false;
-        while (parada == false) {
-            lote = scannerlote.nextInt();
-            if (scannerlote.hasNextInt()) {
-                parada = true;
-            } else {
-                System.out.println("La entrada no es válida, ingrese devuelta: ");
-                scannerlote.next();
-            }
-        }
-        System.out.println("====================");
-        System.out.println("Elija el vino a crear");
-        System.out.println("1) CabernetSauvignon ");
-        System.out.println("2) CabernetSauvignonRose ");
-        System.out.println("3) Cava Gran Reserva");
-        System.out.println("4) Cava joven ");
-        System.out.println("5) Cava Reserva");
-        System.out.println("6) Chardonnay");
-        System.out.println("7) Malbec");
-        System.out.println("8) Malbec Rose");
-        System.out.println("9) Merlot");
-        System.out.println("10) Merlot Rose");
-        System.out.println("11) Sauvignon Blanc");
-        System.out.println("12) Semillon");
-        System.out.println("13) Syrah");
-        System.out.println("14) SyrahRose ");
-        System.out.println("15) Viognier ");
-        System.out.println("0) Salir");
-        System.out.print("Selecciona una opción: ");
-        Vino v1;
-        do {
-            option= scanner.nextInt();
-            if (scanner.hasNextInt()) {
-                switch (option){
-                    case 1:
-                        // v1 = new CabernetSauvignon();//
-
-                }
-            } else {
-                scanner.next();
-                System.out.println("Entrada no válida, ingrese nuevamente: ");
-            }
-            } while (option != 0 );
-        scanner.close();
-*/
-
+    public void instanciarVino(String vinoSt, int lote) {
+        controlDeBodega.instanciarVino(vinoSt, lote);
+    }
+    public void cambiarDeEtapa(int vino) {
+        Vino vinoOption = controlDeBodega.getVinos(vino);
+        controlDeBodega.cambiarDeEtapa(vinoOption);
+    }
+    public int imprimirVinos() {
+        return controlDeBodega.imprimirVinos();
+    }
+    public void consultarEtapa(int vino) {
+        Vino vinoOption = controlDeBodega.getVinos(vino);
+        controlDeBodega.consultarEtapa(vinoOption);
+    }
+    public void consultarCaracteristicas(int index) {
+        controlDeBodega.consultarCaracteristicas(index);
+    }
+    public void consultarMaridaje(int index) {
+        controlDeBodega.consultarMaridaje(index);
+    }
+    public void borrarVino(int vino) {
+        controlDeBodega.borrarVino(vino);
+    }
     }
 
 

@@ -15,10 +15,9 @@ public class BlendVinoSabroso extends Blend implements Prints{
      * Constructor de la clase
      * @param lote Es el lote del vino. Es un int
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
-     * @param etapaActual Es la etapa en la que se encuentra el vino actualmente. Es una string
      */
-    public BlendVinoSabroso(int lote, int anoElaboracion, String etapaActual) {
-        super("Blend VinoSabroso", "Blend", lote, anoElaboracion, etapaActual, 0, 0, 0);
+    public BlendVinoSabroso(int lote, int anoElaboracion) {
+        super("Blend VinoSabroso", "Blend", lote, anoElaboracion, 0, 0, 0);
     }
 
     //Muestra el listado de etapas del presente vino
@@ -42,6 +41,7 @@ public class BlendVinoSabroso extends Blend implements Prints{
      * @param i Es la posicion de la etapa en el array de etapas. Sera seleccionada por el usuario mediante un menu
      * @return String con la etapa de la posicion pasada como parametro
      */
+    @Override
     public String getEtapa(int i) {
         return listadoEtapas[i];
     }
