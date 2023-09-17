@@ -45,6 +45,10 @@ public abstract class Vino implements Prints{
      * El tiempo que demora la maceracion del vino en dias. Se toma como float
      */
     protected float tiempoMaceracion;
+
+    /**
+     * El objeto que se encarga de contener el String con el maridaje del vino
+     */
     protected Maridaje maridaje;
     //Constructor
     /**
