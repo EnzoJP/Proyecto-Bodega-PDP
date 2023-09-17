@@ -53,9 +53,9 @@ public class Main {
                     if (option == 1) {
                         System.out.println("Seleccione el vino que desea generar: ");
                         optionSt = menuVinos();
-                        System.out.println(optionSt);
+                        System.out.println(" ");
                         lote = inputLote();
-                        System.out.println(lote);
+                        System.out.println(" ");
                         bodega.instanciarVino(optionSt, lote);
                     } else if (option == 2) {
                         System.out.println("Seleccione el vino que desea borrar: ");
@@ -112,7 +112,7 @@ public class Main {
 
                     option = 10;
                 }
-            } while ((option > 7) || (option < 1));
+            } while ((option > 8) || (option < 1));
         }
 
     }
