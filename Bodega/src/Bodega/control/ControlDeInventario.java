@@ -261,6 +261,23 @@ public class ControlDeInventario {
     }
 
     /**
+     * Metodo para mostrar los vinos instanciados actualmente SIN PEDIR por pantalla la selección de un vino
+     */
+    public void mostrarVinos() {
+        int cont = 0;
+        if (inventarioVinos.isEmpty()) {
+            System.out.println("No hay vinos instanciados");
+        }
+
+        System.out.println("=========================");
+        for (Vino vino : inventarioVinos) {
+            System.out.println(cont + ". Vino: " + vino.getNombreDeVino() + " - Lote: " + vino.getLote());
+            cont = cont + 1;
+        }
+        System.out.println("=========================");
+        System.out.println(" ");
+    }
+    /**
      * Metodo para avanzar el anio en uno
      * @deprecated Actualmente en desuso, pues se pensaba utilizar para futuras versiones
      */

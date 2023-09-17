@@ -14,7 +14,7 @@ public class SyrahRose extends Rosado {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public SyrahRose(int lote, int anoElaboracion) {
-        super("Syrah Rose", "Rosa", lote, anoElaboracion, 0, 0, 0);
+        super("Syrah Rose", "Rosa", lote, anoElaboracion, 11, 0, 0.55F, "Carnes rojas, carne de pavo, cerdo y fiambres");
     }
 
     //Muestra el listado de etapas del presente vino

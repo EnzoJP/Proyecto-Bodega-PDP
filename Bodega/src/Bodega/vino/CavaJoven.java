@@ -14,7 +14,7 @@ public class CavaJoven extends Cava {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public CavaJoven(int lote, int anoElaboracion) {
-        super("Cava Joven", "Cava", lote, anoElaboracion, 0, 0, 0);
+        super("Cava Joven", "Cava", lote, anoElaboracion, 16, 9, 1, "Pescado, ensaladas, mariscos y paella");
     }
 
     //Muestra el listado de etapas del presente vino

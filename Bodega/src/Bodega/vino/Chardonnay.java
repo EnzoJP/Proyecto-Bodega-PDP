@@ -14,7 +14,7 @@ public class Chardonnay extends Blanco {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public Chardonnay(int lote, int anoElaboracion) {
-        super("Chardonnay", "Blanco", lote, anoElaboracion, 0, 0, 0);
+        super("Chardonnay", "Blanco", lote, anoElaboracion, 15, 12, 3, "Mariscos, pescados, carnes blancas y pastas");
     }
 
     //Muestra el listado de etapas del presente vino

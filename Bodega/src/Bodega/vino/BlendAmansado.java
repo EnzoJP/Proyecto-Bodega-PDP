@@ -17,7 +17,7 @@ public class BlendAmansado extends Blend {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public BlendAmansado(int lote, int anoElaboracion) {
-        super("Blend Amansado", "Blend", lote, anoElaboracion, 0, 0, 0);
+        super("Blend Amansado", "Blend", lote, anoElaboracion, 28, 12, 11, "Carnes rojas, quesos y asados");
     }
 
     //Muestra el listado de etapas del presente vino

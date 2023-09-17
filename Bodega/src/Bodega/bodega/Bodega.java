@@ -148,6 +148,15 @@ public class Bodega {
     public void borrarVino(int vino) {
         controlDeBodega.borrarVino(vino);
     }
+
+    /**
+     * Llama a mostrarVino de control, se utiliza para mostrar los vinos que han sido instanciados hasta el momento. No se pide la seleccion de un vino
+     */
+    public void mostrarVinos() {
+        controlDeBodega.mostrarVinos();
     }
+    }
+
+
 
 

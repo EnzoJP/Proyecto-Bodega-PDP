@@ -14,7 +14,7 @@ public class Semillon extends Blanco {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public Semillon(int lote, int anoElaboracion) {
-        super("Semillon", "Blanco", lote, anoElaboracion, 0, 0, 0);
+        super("Semillon", "Blanco", lote, anoElaboracion, 13, 18, 2, "Pescados azules, aves y pastas con hongos");
     }
 
     //Muestra el listado de etapas del presente vino

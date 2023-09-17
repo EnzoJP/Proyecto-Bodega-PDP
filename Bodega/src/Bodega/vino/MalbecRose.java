@@ -14,7 +14,7 @@ public class MalbecRose extends Rosado {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public MalbecRose(int lote, int anoElaboracion) {
-        super("Malbec Rose", "Rosa", lote, anoElaboracion, 0, 0, 0);
+        super("Malbec Rose", "Rosa", lote, anoElaboracion, 11, 0, 0.70F, "Frutos de mar, carnes blancas y ensaladas frescas");
     }
 
     //Muestra el listado de etapas del presente vino

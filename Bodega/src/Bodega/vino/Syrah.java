@@ -14,7 +14,7 @@ public class Syrah extends Tinto {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public Syrah(int lote, int anoElaboracion) {
-        super("Syrah", "Tinto", lote, anoElaboracion, 0, 0, 0);
+        super("Syrah", "Tinto", lote, anoElaboracion, 26, 18, 18, "Carnes rojas, pastas, vegetales y comida india");
     }
 
     //Muestra el listado de etapas del presente vino

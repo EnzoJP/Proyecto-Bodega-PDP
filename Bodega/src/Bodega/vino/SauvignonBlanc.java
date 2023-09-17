@@ -14,7 +14,7 @@ public class SauvignonBlanc extends Blanco {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public SauvignonBlanc(int lote, int anoElaboracion) {
-        super("Sauvignon Blanc", "Blanco", lote, anoElaboracion, 0, 0, 0);
+        super("Sauvignon Blanc", "Blanco", lote, anoElaboracion, 11, 3, 3, "Mariscos, carnes blancas, quesos y vegetales");
     }
 
     //Muestra el listado de etapas del presente vino

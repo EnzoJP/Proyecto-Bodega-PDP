@@ -14,7 +14,7 @@ public class Viognier extends Blanco {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public Viognier(int lote, int anoElaboracion) {
-        super("Viognier", "Blanco", lote, anoElaboracion, 0, 0, 0);
+        super("Viognier", "Blanco", lote, anoElaboracion, 13, 3, 1, "Pescados, mariscos y postres a base de frutas frescas");
     }
 
     //Muestra el listado de etapas del presente vino

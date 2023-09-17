@@ -14,7 +14,7 @@ public class Merlot extends Tinto {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public Merlot(int lote, int anoElaboracion) {
-        super("Merlot", "Tinto", lote, anoElaboracion, 0, 0, 0);
+        super("Merlot", "Tinto", lote, anoElaboracion, 27, 13, 20, "Pescados, carnes rojas, aves y pastas");
     }
 
     //Muestra el listado de etapas del presente vino

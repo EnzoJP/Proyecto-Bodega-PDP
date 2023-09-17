@@ -42,7 +42,7 @@ public abstract class Vino implements Prints{
     protected float tiempoCrianza;
 
     /**
-     * El tiempo que demora la maceracion del vino en meses. Se toma como float
+     * El tiempo que demora la maceracion del vino en dias. Se toma como float
      */
     protected float tiempoMaceracion;
     protected Maridaje maridaje;
@@ -57,7 +57,7 @@ public abstract class Vino implements Prints{
      * @param tiempoCrianza Es el tiempo de crianza que tendra el vino. Medido en meses. Es float
      * @param tiempoMaceracion Es el tiempo de maceracion que tendra el vino. Medido en meses. Es float
      */
-    public Vino(String nombreDeVino, String tipoDeVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
+    public Vino(String nombreDeVino, String tipoDeVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion, String maridaje) {
         this.nombreDeVino = nombreDeVino;
         this.tipoDeVino = tipoDeVino;
         this.lote = lote;
@@ -66,6 +66,7 @@ public abstract class Vino implements Prints{
         this.temperaturaFermentacion = temperaturaFermentacion;
         this.tiempoCrianza = tiempoCrianza;
         this.tiempoMaceracion = tiempoMaceracion;
+        this.maridaje = new Maridaje(maridaje);
     }
 
     //Getters

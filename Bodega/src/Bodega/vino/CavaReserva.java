@@ -14,7 +14,7 @@ public class CavaReserva extends Cava  {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public CavaReserva(int lote, int anoElaboracion) {
-        super("Cava Reserva", "Cava", lote, anoElaboracion, 0, 0, 0);
+        super("Cava Reserva", "Cava", lote, anoElaboracion, 15, 18, 1, "Ensaladas, pastas y mariscos");
     }
 
     //Muestra el listado de etapas del presente vino

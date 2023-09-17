@@ -13,10 +13,6 @@ import java.util.Scanner;
  */
 public class Main {
 
-    /**
-     * Metodo main del programa
-     * @param args
-     */
     public static void main(String[] args) {
         Bodega bodega = new Bodega("Vino Sabroso", "Calle Manzana, Lujan de Cuyo","Pablo Vidal");
         menuPrincipal(bodega);
@@ -44,7 +40,8 @@ public class Main {
             System.out.println("4. Consultar etapa");
             System.out.println("5. Consultar maridaje");
             System.out.println("6. Consultar información de vinos");
-            System.out.println("7. Cerrar programa");
+            System.out.println("7. Mostrar lista de vinos existentes");
+            System.out.println("8. Cerrar programa");
             System.out.println("===============================================");
             System.out.println(" ");
             do {
@@ -101,6 +98,9 @@ public class Main {
                             bodega.consultarCaracteristicas(vinos);
                         }
                     } else if (option == 7) {
+                        System.out.println("Mostrando la lista de vinos existentes");
+                        bodega.mostrarVinos();
+                    } else if (option == 8){
                         System.out.println("Gracias por utilizar el programa.");
                         stop = true;
                     } else {

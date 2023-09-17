@@ -17,7 +17,7 @@ public class CabernetSauvignon extends Tinto {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public CabernetSauvignon(int lote, int anoElaboracion) {
-        super("Cabernet Sauvignon", "Tinto", lote, anoElaboracion, 0, 0, 0);
+        super("Cabernet Sauvignon", "Tinto", lote, anoElaboracion, 26, 18, 14,"Carnes rojas, quesos y guisos");
     }
 
     //Muestra el listado de etapas del presente vino

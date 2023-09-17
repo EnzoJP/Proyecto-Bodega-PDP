@@ -23,8 +23,8 @@ public abstract class Cava extends Vino {
      * @param tiempoCrianza Es el tiempo de crianza que tendra el vino. Medido en meses. Es float
      * @param tiempoMaceracion Es el tiempo de maceracion que tendra el vino. Medido en meses. Es float
      */
-    public Cava(String nombreVino, String tipoVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
-        super(nombreVino, tipoVino, lote, anoElaboracion, temperaturaFermentacion, tiempoCrianza, tiempoMaceracion);
+    public Cava(String nombreVino, String tipoVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion, String maridaje) {
+        super(nombreVino, tipoVino, lote, anoElaboracion, temperaturaFermentacion, tiempoCrianza, tiempoMaceracion, maridaje);
         //Asignación de los valores por defecto - a modificar
         //19
         this.listadoEtapas = new String[]{"Recoleccion", "Transporte", "Reparticion", "Despalillado", "Desfangado", "TrasladoSolidos", "Maceracion", "FermentacionAlcoholica", "FermentacionVirgen", "LicorDeTiraje", "Removido", "Deguelle", "LicorDeExpedicion", "Trasiego", "Clarificacion", "Estabilizacion", "Crianza", "Embotellado", "Venta"};

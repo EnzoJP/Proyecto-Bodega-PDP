@@ -14,7 +14,7 @@ public class Malbec extends Tinto {
      * @param anoElaboracion Es el anio de insercion del vino en el sistema. Es un int
      */
     public Malbec(int lote, int anoElaboracion) {
-        super("Malbec", "Tinto", lote, anoElaboracion, 0, 0, 0);
+        super("Malbec", "Tinto", lote, anoElaboracion, 28, 12, 10, "Carnes rojas a la parrilla, pizzas y verduras salteadas");
     }
 
     //Muestra el listado de etapas del presente vino

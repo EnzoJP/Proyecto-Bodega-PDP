@@ -23,8 +23,8 @@ public abstract class Blend extends Vino{
      * @param tiempoMaceracion Es el tiempo de maceracion que tendra el vino. Medido en meses. Es float
      */
     //Constructor
-    public Blend(String nombreVino, String tipoDeVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion) {
-        super(nombreVino, tipoDeVino, lote, anoElaboracion, temperaturaFermentacion, tiempoCrianza, tiempoMaceracion);
+    public Blend(String nombreVino, String tipoDeVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion, String maridaje) {
+        super(nombreVino, tipoDeVino, lote, anoElaboracion, temperaturaFermentacion, tiempoCrianza, tiempoMaceracion, maridaje);
 
         //Asignación de los valores por defecto - a modificar
         //17
