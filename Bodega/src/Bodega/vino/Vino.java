@@ -56,6 +56,7 @@ public abstract class Vino implements Prints{
      * @param temperaturaFermentacion Es la temperatura a la que se fermenta el vino. Medido en C. Es float
      * @param tiempoCrianza Es el tiempo de crianza que tendra el vino. Medido en meses. Es float
      * @param tiempoMaceracion Es el tiempo de maceracion que tendra el vino. Medido en meses. Es float
+     * @param maridaje Es el String con el maridaje del vino instanciado.
      */
     public Vino(String nombreDeVino, String tipoDeVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion, String maridaje) {
         this.nombreDeVino = nombreDeVino;
@@ -212,8 +213,14 @@ public abstract class Vino implements Prints{
 
     /**
      * Se le pasa un indice como parametro y devuelve la etapa correspondiente al indice
+     * @param i Es el indice de la etapa en el string de etapas.
+     * @return Se devuelve el String con la etapa que se encuentra en el array de etapas en el índice pasado como parámetro
      */
     public abstract String getEtapa(int i);
 
+    /**
+     * Es el getter del String del maridaje del vino contenido en el objeto maridaje
+     * @return String con el maridaje del vino seleccionado
+     */
     public String getMaridaje() {return maridaje.getMaridaje();};
 }

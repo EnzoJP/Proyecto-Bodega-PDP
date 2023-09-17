@@ -21,6 +21,7 @@ public abstract class Blend extends Vino{
      * @param temperaturaFermentacion Es la temperatura a la que se fermenta el vino. Medido en C. Es float
      * @param tiempoCrianza Es el tiempo de crianza que tendra el vino. Medido en meses. Es float
      * @param tiempoMaceracion Es el tiempo de maceracion que tendra el vino. Medido en meses. Es float
+     * @param maridaje Es el String con el maridaje del vino instanciado
      */
     //Constructor
     public Blend(String nombreVino, String tipoDeVino, int lote, int anoElaboracion, float temperaturaFermentacion, float tiempoCrianza, float tiempoMaceracion, String maridaje) {
