@@ -1,72 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Bodega:jar" />
+    </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e2bad07-b261-4796-8109-8b5e53ec363a" name="Changes" comment="">
+    <list default="true" id="cbacbe01-e817-43e0-939f-e0320dcc8bf2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/SistemaBodega_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Blend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Blend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bodega/control/ControlDeInventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/control/ControlDeInventario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bodega/vino/Prints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bodega/vino/Prints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/bodega/Bodega.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/bodega/Bodega.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/bodega/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/bodega/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/bodega/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/bodega/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/control/ControlDeInventario.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/control/ControlDeInventario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/control/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/control/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/control/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/control/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/main/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/main/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/main/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/main/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/main/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/main/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/maridaje/Maridaje.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/maridaje/Maridaje.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/maridaje/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/maridaje/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/maridaje/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/maridaje/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Blanco.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Blanco.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Blend.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Blend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/BlendAmansado.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/BlendAmansado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/BlendVinoSabroso.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/BlendVinoSabroso.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CabernetSauvignon.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CabernetSauvignon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CabernetSauvignonRose.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CabernetSauvignonRose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Cava.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Cava.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CavaGranReserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CavaGranReserva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CavaJoven.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CavaJoven.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CavaReserva.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/CavaReserva.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Chardonnay.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Chardonnay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Etapas.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Etapas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Malbec.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Malbec.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/MalbecRose.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/MalbecRose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Merlot.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Merlot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/MerlotRose.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/MerlotRose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Prints.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Prints.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Rosado.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Rosado.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/SauvignonBlanc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/SauvignonBlanc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Semillon.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Semillon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Syrah.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Syrah.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/SyrahRose.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/SyrahRose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Tinto.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Tinto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Vino.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Vino.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Viognier.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/Viognier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/Bodega/vino/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/allclasses.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/allclasses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/external/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/external/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/jquery-3.6.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/jquery-3.6.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/jszip-utils/dist/jszip-utils-ie.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/jszip-utils/dist/jszip-utils-ie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/jszip-utils/dist/jszip-utils-ie.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/jszip-utils/dist/jszip-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/jszip-utils/dist/jszip-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/jszip-utils/dist/jszip-utils.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/jszip-utils/dist/jszip-utils.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/jszip/dist/jszip.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/jszip/dist/jszip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/jquery/jszip/dist/jszip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/jquery/jszip/dist/jszip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/legal/jquery.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/legal/jquery.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/legal/jqueryUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/legal/jqueryUI.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/legal/jszip.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/legal/jszip.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/legal/pako.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/legal/pako.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/member-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/member-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/package-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/package-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaDoc/type-search-index.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaDoc/type-search-index.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto-Bodega-PDP.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2Uqubl4c9wuxlukCtnB9wBTmi6h" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2Vam1uGHeQIbZ23o4UpmKkMN8pH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Runtime.Targets.Configurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e2bad07-b261-4796-8109-8b5e53ec363a" name="Changes" comment="" />
-      <created>1693679506454</created>
+      <changelist id="cbacbe01-e817-43e0-939f-e0320dcc8bf2" name="Changes" comment="" />
+      <created>1695082355222</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1693679506454</updated>
-      <workItem from="1693679507643" duration="378000" />
-      <workItem from="1693681114130" duration="1503000" />
-      <workItem from="1693754658458" duration="2294000" />
-      <workItem from="1694134357683" duration="135000" />
-      <workItem from="1694134505574" duration="9458000" />
-      <workItem from="1694144461956" duration="6000" />
-      <workItem from="1694145805597" duration="11000" />
-      <workItem from="1694351884880" duration="4346000" />
-      <workItem from="1694356324669" duration="149000" />
+      <updated>1695082355222</updated>
+      <workItem from="1695082356147" duration="16000" />
+      <workItem from="1695082397908" duration="181000" />
     </task>
     <servers />
   </component>

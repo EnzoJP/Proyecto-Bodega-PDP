@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * Clase central o más importante de la bodega. Es la encargada de realizar todos los procesos de la bodega.
+ * Clase central o mas importante de la bodega. Es la encargada de realizar todos los procesos de la bodega.
  * @author Tomas Rando, Enzo Palau, Julian Montano
  * @version 1.0.0
  * @since 11
@@ -36,7 +36,7 @@ public class ControlDeInventario {
     }
 
     /**
-     * Método para consultar las características de los vinos e imprimirlas por pantalla
+     * Metodo para consultar las caracteristicas de los vinos e imprimirlas por pantalla
      * @param index Entero con el indice del vino seleccionado
      */
     public void consultarCaracteristicas(int index) {
@@ -261,7 +261,7 @@ public class ControlDeInventario {
     }
 
     /**
-     * Metodo para mostrar los vinos instanciados actualmente SIN PEDIR por pantalla la selección de un vino
+     * Metodo para mostrar los vinos instanciados actualmente SIN PEDIR por pantalla la seleccion de un vino
      */
     public void mostrarVinos() {
         int cont = 0;

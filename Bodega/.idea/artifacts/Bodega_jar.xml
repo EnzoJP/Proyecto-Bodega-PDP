@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Bodega:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bodega_jar</output-path>
+    <root id="archive" name="Bodega.jar">
+      <element id="module-output" name="Bodega" />
+    </root>
+  </artifact>
+</component>
