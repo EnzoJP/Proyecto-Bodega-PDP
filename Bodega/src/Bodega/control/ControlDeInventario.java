@@ -267,6 +267,7 @@ public class ControlDeInventario {
         int cont = 0;
         if (inventarioVinos.isEmpty()) {
             System.out.println("No hay vinos instanciados");
+            return;
         }
 
         System.out.println("=========================");

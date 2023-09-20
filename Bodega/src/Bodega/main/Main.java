@@ -55,7 +55,7 @@ public class Main {
                         optionSt = menuVinos();
                         System.out.println(" ");
                         lote = inputLote();
-                        System.out.println(" z");
+                        System.out.println(" ");
                         bodega.instanciarVino(optionSt, lote);
                     } else if (option == 2) {
                         System.out.println("Seleccione el vino que desea borrar: ");
