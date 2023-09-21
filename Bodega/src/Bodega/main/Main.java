@@ -41,7 +41,8 @@ public class Main {
             System.out.println("5. Consultar maridaje");
             System.out.println("6. Consultar información de vinos");
             System.out.println("7. Mostrar lista de vinos existentes");
-            System.out.println("8. Cerrar programa");
+            System.out.println("8. Mostrar información de la bodega");
+            System.out.println("9. Cerrar programa");
             System.out.println("===============================================");
             System.out.println(" ");
             do {
@@ -101,6 +102,11 @@ public class Main {
                         System.out.println("Mostrando la lista de vinos existentes");
                         bodega.mostrarVinos();
                     } else if (option == 8){
+                        System.out.println("El nombre de la bodega es: " + bodega.getNombreDeBodega() + ".");
+                        System.out.println("La bodega está ubicada en: " + bodega.getDireccionDeBodega() + ".");
+                        System.out.println("El director actual es: " + bodega.getDirectorDeBodega() + ".");
+                        System.out.println(" ");
+                    } else if (option == 9) {
                         System.out.println("Gracias por utilizar el programa.");
                         stop = true;
                     } else {
@@ -112,7 +118,7 @@ public class Main {
 
                     option = 10;
                 }
-            } while ((option > 8) || (option < 1));
+            } while ((option > 9) || (option < 1));
         }
 
     }
